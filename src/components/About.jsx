@@ -60,7 +60,9 @@ const About = () => {
                 business reinvent itself
               </span>
             </h2>
-            <p>We reached here with our hard work and dedication</p>
+            <p className="dark:text-black">
+              We reached here with our hard work and dedication
+            </p>
           </div>
 
           {/* stats */}
@@ -71,7 +73,7 @@ const About = () => {
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     {/* 2,245,341 */}
-                    <CountUp end={2245341} duration={2.5} separator="," />
+                    <CountUp end={2245341} duration={7} separator="," />
                   </h4>
                   <p>Members</p>
                 </div>
@@ -80,7 +82,7 @@ const About = () => {
                 <img src="/src/assets/icons/clubs.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    <CountUp end={46328} duration={2.5} separator="," />
+                    <CountUp end={46328} duration={7} separator="," />
                   </h4>
                   <p>Clubs</p>
                 </div>
@@ -91,7 +93,7 @@ const About = () => {
                 <img src="/src/assets/icons/click.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    <CountUp end={828867} duration={2.5} separator="," />
+                    <CountUp end={828867} duration={7} separator="," />
                   </h4>
                   <p>Event Bookings</p>
                 </div>
@@ -100,7 +102,7 @@ const About = () => {
                 <img src="/src/assets/icons/payments.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
-                    <CountUp end={1926436} duration={2.5} separator="," />
+                    <CountUp end={1926436} duration={7} separator="," />
                   </h4>
                   <p>Payments</p>
                 </div>

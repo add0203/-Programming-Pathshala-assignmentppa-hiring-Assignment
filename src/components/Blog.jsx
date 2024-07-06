@@ -47,10 +47,10 @@ const Blog = () => {
 
       {/* all blogs */}
       <motion.div
-        variants={fadeIn("right", 0.3)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.6 }}
+        // variants={fadeIn("right", 0.3)}
+        // initial="hidden"
+        // whileInView={"show"}
+        // viewport={{ once: false, amount: 0.6 }}
         className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between mt-16"
       >
         {blogs.map((blog) => (
