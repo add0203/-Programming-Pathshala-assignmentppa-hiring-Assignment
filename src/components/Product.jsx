@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../assets/mobile-login.png";
 import Maecenas from "../assets/maecenas.png";
+import { IoPeople } from "react-icons/io5";
 
 // motion
 import { motion } from "framer-motion";
@@ -84,7 +85,15 @@ const Product = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+                  {/* <img
                     src="/src/assets/icons/company1.png"
                     alt=""
                     className="cursor-pointer"
@@ -113,7 +122,7 @@ const Product = () => {
                     src="/src/assets/icons/company6.png"
                     alt=""
                     className="cursor-pointer"
-                  />
+                  /> */}
                   <div className="flex gap-8 items-center">
                     <a
                       href="/"

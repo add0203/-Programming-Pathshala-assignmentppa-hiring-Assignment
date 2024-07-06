@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import { IoPeople } from "react-icons/io5";
 
 const Services = () => {
   const services = [
@@ -11,21 +12,24 @@ const Services = () => {
       title: "Membership Organisations",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/membership.png",
+      // image: "/src/assets/icons/membership.png",
+      image: "https://picsum.photos/30",
     },
     {
       id: 2,
       title: "National Associations",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/association.png",
+      // image: "/src/assets/icons/association.png",
+      image: "https://picsum.photos/30",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       decription:
         "Our membership management software provides full automation of membership renewals and payments",
-      image: "/src/assets/icons/group-club.png",
+      // image: "/src/assets/icons/group-club.png",
+      image: "https://picsum.photos/30",
     },
   ];
   return (
@@ -44,13 +48,19 @@ const Services = () => {
           We have been working with some Fortune 500+ clients
         </p>
         <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src="src/assets/icons/company1.png" alt="" />
+          {/* <img src="src/assets/icons/company1.png" alt="" />
           <img src="src/assets/icons/company2.png" alt="" />
           <img src="src/assets/icons/company3.png" alt="" />
           <img src="src/assets/icons/company4.png" alt="" />
           <img src="src/assets/icons/company5.png" alt="" />
           <img src="src/assets/icons/company6.png" alt="" />
-          <img src="src/assets/icons/company7.png" alt="" />
+          <img src="src/assets/icons/company7.png" alt="" /> */}
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
+          <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
         </div>
       </motion.div>
 

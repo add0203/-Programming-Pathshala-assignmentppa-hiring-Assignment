@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../assets/about.png";
 import CountUp from "react-countup";
+import { IoPeople } from "react-icons/io5";
 
 // motion
 import { motion } from "framer-motion";
@@ -69,7 +70,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12 dark:text-gray900">
             <div className="space-y-8">
               <div className="flex items-center gap-4 ">
-                <img src="/src/assets/icons/group.png" alt="" />
+                <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     {/* 2,245,341 */}
@@ -79,7 +80,8 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/clubs.png" alt="" />
+                {/* <img src="/src/assets/icons/clubs.png" alt="" /> */}
+                <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     <CountUp end={46328} duration={7} separator="," />
@@ -90,7 +92,8 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/click.png" alt="" />
+                {/* <img src="/src/assets/icons/click.png" alt="" /> */}
+                <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     <CountUp end={828867} duration={7} separator="," />
@@ -99,7 +102,8 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/payments.png" alt="" />
+                {/* <img src="/src/assets/icons/payments.png" alt="" /> */}
+                <img src={IoPeople} alt="" className="h-6 w-6 text-primary" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     <CountUp end={1926436} duration={7} separator="," />
