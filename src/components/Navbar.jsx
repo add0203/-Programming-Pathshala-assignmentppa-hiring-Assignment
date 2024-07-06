@@ -93,7 +93,6 @@ const Navbar = () => {
               data-ripple-light="true"
             >
               {" "}
-              modes
               {theme === "light"
                 ? "Switch to Dark Mode"
                 : "Switch to Light Mode"}
@@ -140,7 +139,6 @@ const Navbar = () => {
             className="p-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded"
           >
             {" "}
-            modes
             {theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
           </button>
         </div>
