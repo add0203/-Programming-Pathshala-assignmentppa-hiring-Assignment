@@ -34,8 +34,8 @@ const MyFooter = () => {
             </div>
 
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-start text-white">
-              <Footer.Icon href="#" icon={BsDribbble} className="text-white" />
               <Footer.Icon href="#" icon={BsInstagram} className="text-white" />
+              <Footer.Icon href="#" icon={BsDribbble} className="text-white" />
               <Footer.Icon href="#" icon={BsTwitter} className="text-white" />
               <Footer.Icon href="#" icon={BsYoutube} className="text-white" />
             </div>
