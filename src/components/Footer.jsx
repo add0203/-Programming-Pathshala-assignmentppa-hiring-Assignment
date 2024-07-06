@@ -2,7 +2,7 @@ import React from "react";
 import { Footer, Label, TextInput } from "flowbite-react";
 import {
   BsFacebook,
-  BsGithub,
+  BsYoutube,
   BsInstagram,
   BsMailbox,
   BsMailbox2,
@@ -37,7 +37,7 @@ const MyFooter = () => {
               <Footer.Icon href="#" icon={BsFacebook} className="text-white" />
               <Footer.Icon href="#" icon={BsInstagram} className="text-white" />
               <Footer.Icon href="#" icon={BsTwitter} className="text-white" />
-              <Footer.Icon href="#" icon={BsGithub} className="text-white" />
+              <Footer.Icon href="#" icon={BsYoutube} className="text-white" />
             </div>
           </div>
           <div className="md:w-2/3 grid grid-cols-2 gap-8 items-start sm:mt-4 sm:grid-cols-3 sm:gap-6 text-white">
@@ -87,7 +87,7 @@ const MyFooter = () => {
                 <div className="mb-2 block"></div>
                 <TextInput
                   id="email4"
-                  placeholder="name@flowbite.com"
+                  placeholder="Your email address"
                   required
                   rightIcon={SiMinutemailer}
                   type="email"
